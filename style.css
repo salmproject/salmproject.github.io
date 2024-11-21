@@ -37,14 +37,6 @@ header h1 {
     filter: brightness(0) invert(1); /* Ensures logos are visible on dark background */
 }
 
-.logo-left {
-    margin-right: auto;
-}
-
-.logo-right {
-    margin-left: auto;
-}
-
 /* Navigation */
 nav ul {
     list-style: none;
