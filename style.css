@@ -29,6 +29,13 @@ header p {
     padding: 0 1.5em;
 }
 
+.header-container {
+    position: relative; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
 header h1 {
     margin: 0;
     font-size: 1.8em;
@@ -39,9 +46,20 @@ header h1 {
 /* Logo Styling */
 .logo-left,
 .logo-right {
-    height: 40px; /* Reduce size for better appearance */
+    position: absolute; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    height: 40px; 
     width: auto;
     filter: brightness(0) invert(1); /* Ensures logos are visible on dark background */
+}
+
+.logo-left {
+    left: 1.5em; /* Position logo on the left edge */
+}
+
+.logo-right {
+    right: 1.5em; /* Position logo on the right edge */
 }
 
 /* Navigation */
