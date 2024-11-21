@@ -9,7 +9,7 @@ body {
 
 /* Header */
 header {
-    background: #333;
+    background: #800000; /* Dark red */
     color: #fff;
     padding: 1em 0;
     text-align: center;
@@ -35,6 +35,10 @@ nav ul li a {
     text-decoration: none;
 }
 
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
 /* Main Content */
 main {
     margin: 20px auto;
@@ -46,20 +50,127 @@ main {
 }
 
 h2 {
-    color: #444;
+    color: #800000; /* Dark red */
 }
 
 ul {
     padding: 0;
-    list-style-type: disc;
-    margin-left: 20px;
+    list-style-type: none;
+    margin-left: 0;
+}
+
+ul li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+ul li:last-child {
+    border-bottom: none;
+}
+
+/* Link Styling */
+main a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+main a:hover {
+    text-decoration: underline;
 }
 
 /* Footer */
 footer {
     text-align: center;
     padding: 1em 0;
-    background: #333;
+    background: #800000; /* Dark red */
     color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Team Member Section */
+.team-member {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5em;
+    padding: 1em;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.team-member img {
+    border-radius: 50%;
+    margin-right: 1em;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.team-member div {
+    flex: 1;
+}
+
+.team-member h3 {
+    margin: 0;
+    color: #800000; /* Dark Red */
+}
+
+.team-member p {
+    margin: 0.5em 0;
+    font-size: 0.95em;
+    color: #555;
+}
+
+.team-member a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.team-member a:hover {
+    text-decoration: underline;
+}
+
+/* Event Sections */
+.event-section {
+    margin-bottom: 2em;
+}
+
+.event-item {
+    margin-bottom: 1em;
+    padding: 1em;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.event-item h4 {
+    margin: 0;
+    color: #800000; /* Dark red */
+}
+
+.event-item p,
+.event-item ul {
+    margin: 0.5em 0;
+}
+
+.event-item ul li {
+    list-style-type: disc;
+    margin-left: 1.5em;
+}
+
+/* Logo Styling */
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    height: 50px;
+    margin: 0 20px;
 }
 
