@@ -13,6 +13,13 @@ header {
     color: #fff;
     padding: 1em 0;
     position: relative;
+    text-align: center; 
+}
+
+header p {
+    margin: 0.5em 0 0; 
+    font-size: 1.2em;
+    text-align: center; 
 }
 
 .header-container {
