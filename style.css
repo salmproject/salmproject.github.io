@@ -150,11 +150,24 @@ footer {
 .event-item h4 {
     margin: 0;
     color: #800000; /* Dark red */
+    font-size: 1.4em;
 }
 
-.event-item p,
-.event-item ul {
+.event-item p {
     margin: 0.5em 0;
+    font-size: 1em;
+    color: #333;
+}
+
+.event-item ul {
+    margin: 0.5em 0 0 1.5em;
+    padding-left: 1em;
+    list-style-type: disc;
+}
+
+.event-item ul ul {
+    list-style-type: circle;
+    margin: 0.5em 0 0 1.5em;
 }
 
 .event-item ul li {
